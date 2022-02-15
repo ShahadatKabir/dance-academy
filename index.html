@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dance Academy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dance.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Dance Academy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contactUS">Contact Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#categories">Categories</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="./coverO.jpg" class="img-fluid" alt="Responsive image">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="categories">
+
+    </div>
+
+
+
+    <div id="categories" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./circleImage.jpg" target="_blank">
+                        <img src="./hip-hop.jpg" alt="Lights" style="width:100%">
+                        <div class="caption" style="text-align: center">
+                            <button type="button" class="btn btn-primary btn-lg">Hop-Hop</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./coverO.jpg" target="_blank">
+                        <img src="./jazz.jpg" alt="Nature" style="width:100%">
+                        <div class="caption" style="text-align: center">
+                            <button type="button" class="btn btn-primary btn-lg">Jazz</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="./coverC.jpg" target="_blank">
+                        <img src="./tap.jpg" alt="Fjords" style="width:100%">
+
+                        <div class="caption" style="text-align: center">
+                            <button type="button" class="btn btn-primary btn-lg">Tap Dancing</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="container">
+
+
+        <div style="height: 10px;">
+
+            <h2>Be <del><abbr title="attribute"> Fearful</abbr></del> Fearless</h2>
+
+            <div class="btn-group">
+               <button> <a href="./registration.html" type="button" class="btn btn-primary">Register </a></button>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div id="contactUS" class="container bg col-md-4">
+
+
+        <h2>Contact Us</h2>
+
+
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#submitModal">
+                Submit
+            </button>
+
+
+
+
+
+            <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="submitModalLabel">Success</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We Will Contact With You
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="">
+        <footer class="text-center text-white" style="background-color: #0a4275;">
+
+            <div class="container ">
+                <section class="">
+                    <p class=" justify-content-center align-items-center">
+                        <span class="md-3">Register for free</span>
+                        <button <a href="./registration.html" type="button" class="btn btn-outline-light btn-rounded"> </a>
+                            Register
+                        </button>
+                    </p>
+                </section>
+            </div>
+
+            <div class="text-center " style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://github.com/ShahadatKabir">Md shahadat kabir</a>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
